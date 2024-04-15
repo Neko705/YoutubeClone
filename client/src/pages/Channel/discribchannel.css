@@ -1,0 +1,47 @@
+.container3_chanel{
+    border-bottom: 3px solid rgb(111, 110, 110);
+    padding: 0.5rem;
+    color: whitesmoke;
+    position: relative;
+}
+.chanel_logo{
+    border: 10px solid brown;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 100%;
+    display: flex;
+    margin:0 auto;
+    background-color:rgb(255, 166, 0);
+}
+.description_chanel{
+    text-align: center;
+}
+.chanel_logo b{
+    margin: auto;
+    font-size: 3rem;
+}
+.description_chanel b{
+    font-size: 4rem;
+}
+.description_chanel p{
+    font-size: large;
+}
+.editbtn_chanel,.uploadbtn_chanel{
+    position: absolute;
+    right: 1rem;
+    top: 0.5rem;
+    background-color: transparent;
+    padding: 0.5rem;
+    border: 2px solid transparent;
+    border-radius: 0.5rem;
+    color: white;
+    transition: all 1s;
+    cursor: pointer;
+}
+.uploadbtn_chanel{
+    top: 4rem;
+}
+.editbtn_chanel:hover,.uploadbtn_chanel:hover{
+    border: 2px solid;
+    color: red;
+}

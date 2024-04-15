@@ -1,0 +1,37 @@
+.container_whl{
+    margin: 0;
+    display: flex;
+    padding: 0.5rem;
+    justify-content: space-around;
+}
+.box_whl{
+    width: 45%;
+    padding: 0.8rem;
+    margin: 0.8rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.box_whl b{
+    font-size: 2rem;
+}
+.clear_history_btn{
+    color: gray;
+    font-size: 1.2rem;
+    cursor: pointer;
+    font-weight:bold;
+    margin: auto 0;
+}
+.clear_history_btn:hover{
+    color: white;
+}
+.rightside_whl h1{
+    color: white;
+}
+.leftside_whl{
+    background-color: #121212;
+    height: 50vh;
+}
+.whl_list{
+    overflow-y: auto;
+}

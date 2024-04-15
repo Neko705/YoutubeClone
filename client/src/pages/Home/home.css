@@ -1,0 +1,18 @@
+.navigation_home{
+    color: white;
+    background-color: #121212;
+    position: sticky;
+    display: flex;
+    overflow-x: auto;
+    top: 0;
+}
+.btn_nav_home{
+    margin: 0.6rem;
+    padding: 0.5rem;
+    background-color: #121212;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.btn_nav_home:hover{
+    background-color: #3f3e3e;
+}

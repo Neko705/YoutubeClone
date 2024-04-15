@@ -1,0 +1,50 @@
+.container_navbar{
+    border: none;
+    display: flex;
+    height: calc(3.4rem - 5px);
+    background-color: #121212;
+    justify-content: space-between;
+}
+
+.Burger_logo_navbar{
+    display: flex;
+    height: 3rem;
+}
+.burger{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    justify-content: space-evenly;
+    margin: 0.2rem;
+    padding: 0.5rem;
+    border: 1px solid transparent;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    border-radius: 100%;
+}
+.burger p{
+    margin: 0.5px;
+    width: 1.2rem;
+    height: 0.1rem;
+    background-color: white;
+}
+.logo_div_navbar{
+    display: flex;
+    font-size: larger;
+    text-decoration: none;
+}
+.logo_title_navbar{
+    margin: auto;
+    margin-left: 0.3rem;
+    color: white;
+    font-weight: bold;
+}
+.User_cont_navbar{
+    margin: 0.5rem;
+    display: flex;
+    margin-top: -10px;
+}
+.auth_btn{
+    cursor: pointer;
+    color: rgb(36, 36, 243);
+}
