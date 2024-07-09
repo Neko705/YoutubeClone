@@ -11,6 +11,7 @@
 .video_display_screen{
     width: calc(100vw - 4.5rem -35vw);
     padding: 1rem;
+    cursor: pointer;
 }
 .video_showvideo_videopage{
     padding: 0.1rem;
@@ -18,6 +19,53 @@
     width: 100%;
     background-color: #121212;
     border-radius: 20px;
+}
+.controls {
+    border-bottom: 50rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    pointer-events: none;
+}
+.controls button {
+    background: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    font-size: 1em;
+    padding: 10px;
+    margin: 0 5px;
+    border-radius: 50%;
+    cursor: pointer;
+    pointer-events: all;
+}
+.controls .progress-bar {
+    flex-grow: 1;
+    height: 5px;
+    background: rgba(255, 255, 255, 0.5);
+    margin: 0 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+}
+.controls .progress-bar .progress {
+    height: 100%;
+    background: #ff0000;
+    border-radius: 5px;
+}
+.buttons {
+    display: flex;
+    align-items: center;
+    pointer-events: all;
+}
+.buttons select {
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    cursor: pointer;
 }
 .video_btns_title_videopage_cont{
     border-bottom: 3px solid rgb(96, 95, 95);
@@ -53,7 +101,7 @@
     width: 4rem;
     height: 4rem;
     margin: 0.5rem;
-    background-color: rgb(140, 138, 138);
+    background-color: rgb(119, 110, 110);
     border-radius: 100%;
 }
 .chanel_logo_videopage p{
@@ -66,7 +114,7 @@
     margin: auto 1rem;
     font-size: larger;
 }
-.comments_videopage{
+  .comments_videopage{
     width: 100%;
     padding: 0.5rem;
 }
