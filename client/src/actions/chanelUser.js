@@ -8,14 +8,6 @@ export const fatchAllChanel=()=>async(dispatch)=>{
         console.log(error)
     }
 }
-/*export const updateChanelData=(_id,updateData)=>async(dispatch)=>{
-    try {
-        const {data}= await api.updateChanelData(_id,updateData);
-        dispatch({type:"UPDATE_DATA",payload:data})
-    } catch (error) {
-        console.log(error)
-    }
-}*/
 
 export const updateChanelData=(_id,updateData)=> async(dispatch)=>{
     try {
