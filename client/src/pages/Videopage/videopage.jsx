@@ -34,10 +34,10 @@ const Videopage = () => {
   };
 
   const videoSources = {
-    '320p': `http://localhost:5500/${vv?.filePath}`,
-    '480p': `http://localhost:5500/${vv?.filePath}`,
-    '720p': `http://localhost:5500/${vv?.filePath}`,
-    '1080p': `http://localhost:5500/${vv?.filePath}`
+    '320p': `https://myyoutubeclone.onrender.com${vv?.filePath}`,
+    '480p': `https://myyoutubeclone.onrender.com${vv?.filePath}`,
+    '720p': `https://myyoutubeclone.onrender.com${vv?.filePath}`,
+    '1080p': `https://myyoutubeclone.onrender.com${vv?.filePath}`
   };
 
   useEffect(() => {
