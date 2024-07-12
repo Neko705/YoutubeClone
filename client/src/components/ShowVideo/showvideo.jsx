@@ -7,7 +7,7 @@ function Showvideo({vid}) {
   return (
     <>
     <Link to={`/videopage/${vid?._id}`}>
-        <video src={`http://localhost:5500/${vid.filePath}`}
+        <video src={`https://myyoutubeclone.onrender.com${vid.filePath}`}
         className='video_showvideo'/>
     </Link>
     <div className='video_discription'>
